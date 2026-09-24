@@ -113,6 +113,43 @@ Android 4.0 时代的 `PackageManager` 只认 **v1（JAR Signing，即 `META-INF
 
 ---
 
+## 🤖 AI 助手：首次使用需自行填写 API Key
+
+本程序内置 AI 对话功能，支持多家大模型服务（智谱 GLM、DeepSeek、Kimi、通义千问、文心、混元、豆包、讯飞星火、MiniMax、硅基流动，以及 OpenAI / Gemini / Groq 等）。
+
+> **出于安全考虑，发布版已移除出厂预置的 API Key。**
+> 您需要填入自己的 Key 才能使用 AI 功能。
+
+### 配置步骤
+
+1. 打开程序 → **设置 → AI 助手**；
+2. **服务商**：从下拉列表选择（默认「智谱 GLM」）；
+3. **API Key**：粘贴您自己的 Key；
+4. **Base URL** 与 **模型名**：选择服务商后会自动填充默认值，一般无需修改；
+5. 保存后即可对话。
+
+### 快速上手（以智谱 GLM 为例）
+
+1. 访问 <https://open.bigmodel.cn> 注册并创建 API Key；
+2. 把 Key 粘贴到程序的「API Key」输入框；
+3. 模型保持默认 `glm-4-flash`（纯文本速度快、免费额度充足）。
+
+### 各服务商 Key 申请入口
+
+| 服务商 | 申请地址 |
+| --- | --- |
+| 智谱 GLM | <https://open.bigmodel.cn> |
+| DeepSeek | <https://platform.deepseek.com> |
+| 月之暗面 Kimi | <https://platform.moonshot.cn> |
+| 阿里通义千问 | <https://dashscope.console.aliyun.com> |
+| 字节豆包（火山方舟） | <https://console.volcengine.com/ark> |
+| 硅基流动 | <https://cloud.siliconflow.cn> |
+| OpenAI | <https://platform.openai.com> |
+
+> 不填 Key 也不影响其他功能 —— 日历、时间、天气、新闻、电台、本地音乐均可正常使用。
+
+---
+
 ## 📁 目录结构
 
 ```
