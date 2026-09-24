@@ -10034,7 +10034,7 @@ var AI_PROVIDERS = {
   custom:     { name: "自定义 OpenAI 兼容", base: "", group: "custom", models: [] }
 };
 /* 出厂 Key：用户提供的智谱 Key，装好即可对话（可在设置里换成自己的） */
-var DEF_ZHIPU_KEY = "5b352dfdc95d48ac8c74cb9d411aa3f9.s9aKPG2noef9ukWi";
+var DEF_ZHIPU_KEY = "                                                 ";
 function defaultAi() {
   return {
     enabled: true, provider: "zhipu", apiKey: DEF_ZHIPU_KEY, baseUrl: "https://open.bigmodel.cn/api/paas/v4",
